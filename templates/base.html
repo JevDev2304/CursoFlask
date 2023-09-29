@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <meta charset="UTF-8">
+    <title>{% block title %}Flask |{% endblock %}</title>
+</head>
+<body>
+<header>
+    {% include 'navbar.html' %}
+</header>
+{% block content %}
+{% endblock %}
+</body>
+</html>
