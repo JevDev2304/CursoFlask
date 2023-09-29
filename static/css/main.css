@@ -1,4 +1,11 @@
 h1{color: red;}
-img{
-max-width:400px;
+.navbar-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+img{
+max-width:40px;
+border-radius: 16px;
+}
+
